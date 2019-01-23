@@ -1,0 +1,10 @@
+groups:
+  - name: terraform
+    nodes: []
+    config:
+      transport: ssh
+      ssh:
+        private-key: ~/.ssh/id_rsa-phraseless
+        user: ubuntu
+        host-key-check: false
+
